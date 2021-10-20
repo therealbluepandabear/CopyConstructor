@@ -1,6 +1,8 @@
 #include <iostream>
+#include "Integer.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Integer i(5);
+    std::cout << i.GetValue() << std::endl;
     return 0;
 }
