@@ -13,9 +13,9 @@ Integer::Integer(int value) {
 }
 
 void Integer::SetValue(int value) {
-
+    *m_pInt = value;
 }
 
 int Integer::GetValue() const {
-    return 0;
+    return *m_pInt;
 }
