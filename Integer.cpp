@@ -12,6 +12,10 @@ Integer::Integer(int value) {
     m_pInt = new int(value);
 }
 
+Integer::~Integer() {
+    delete m_pInt;
+}
+
 void Integer::SetValue(int value) {
     *m_pInt = value;
 }

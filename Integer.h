@@ -6,6 +6,7 @@ class Integer {
 public:
     Integer();
     Integer(int value);
+    ~Integer();
     int GetValue() const;
     void SetValue(int value);
 };
