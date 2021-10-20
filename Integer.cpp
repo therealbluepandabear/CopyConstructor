@@ -4,6 +4,10 @@
 
 #include "Integer.h"
 
+Integer::Integer() {
+    m_pInt = new int(0);
+}
+
 void Integer::SetValue(int value) {
 
 }
