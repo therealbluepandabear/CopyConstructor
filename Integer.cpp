@@ -8,6 +8,10 @@ Integer::Integer() {
     m_pInt = new int(0);
 }
 
+Integer::Integer(int value) {
+    m_pInt = new int(value);
+}
+
 void Integer::SetValue(int value) {
 
 }
